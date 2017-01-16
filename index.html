@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/todolist.css"/>
+	</head>
+	<body>
+		<div class="taskList">
+			<h1>待处理</h1>
+		</div>
+		<div class="doing">
+			<h1>进行中</h1>
+		</div>
+		<div class="completed">
+			<h1>已完成</h1>
+		</div>
+		<div class="addList">
+			<h1>添加项目</h1>
+			<form action="#">
+				<input type="text" name="" id="title" placeholder="标题"/>
+				<input type="text" name="" id="content" placeholder="内容"/>
+				<input type="text" name="" id="datepicker" placeholder="截止日期(月/日/年)"/>
+				<input type="submit" value="添加"/>
+			</form>
+			<div class="del">
+				拖动到这里删除
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			new Todo;
+		})
+	</script>
+</html>
+
