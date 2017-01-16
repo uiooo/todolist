@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.taskList,.doing,.completed,.addList{
+	width: 22%;
+	min-height: 300px;
+	border-radius: 10px;
+	background-color: gainsboro;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+h1{
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 10px;
+}
+.msg{
+	background-color: white;
+	width: 96%;
+	max-height: 4em;
+	margin: 0 auto;
+	border-radius: 6px;
+	overflow: hidden;
+	text-indent: 0.5em;
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+	position: relative;
+}
+h2{
+	font-size: 1em;
+}
+form{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 96%;
+}
+input[type=text]{
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+	border: none;
+	text-indent: 0.5em;
+}
+input[type=text]:focus{
+	outline: none;
+}
+input[type=submit]{
+	width: 50%;
+	height: 25px;
+	margin-top: 20px;
+}
+.del{
+	margin: 0 auto;
+	width: 90%;
+	min-height: 75px;
+	border: 2px dashed red;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+	line-height: 71px;
+	border-radius: 8px;
+}
+.droppable-hover{
+	background-color: greenyellow;
+}
+.del{
+	display: none;
+}
